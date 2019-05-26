@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webcat12345/ngx-intl-tel-input-search"
+    "url": "git+https://github.com/ShubhJaiswal/ngx-intl-tel-input"
   },
   "author": {
     "name": "shubham1995",
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webcat12345/ngx-intl-tel-input-search/issues"
+    "url": "https://github.com/ShubhJaiswal/ngx-intl-tel-input/issues"
   },
   "devDependencies": {
     "@types/google-libphonenumber": "^7.4.17"

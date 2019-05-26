@@ -1,11 +1,11 @@
 # International Telephone Input for Angular (NgxIntlTelInput)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
-[![Build Status](https://travis-ci.org/webcat12345/ngx-intl-tel-input.svg?branch=master)](https://travis-ci.org/webcat12345/ngx-intl-tel-input) [![npm version](https://badge.fury.io/js/ngx-intl-tel-input.svg)](https://badge.fury.io/js/ngx-intl-tel-input) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/ngx-intl-tel-input)
+[![Build Status](https://travis-ci.org/webcat12345/ngx-intl-tel-input-search.svg?branch=master)](https://travis-ci.org/webcat12345/ngx-intl-tel-input-search) [![npm version](https://badge.fury.io/js/ngx-intl-tel-input-search.svg)](https://badge.fury.io/js/ngx-intl-tel-input-search) [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/ngx-intl-tel-input-search)
 
 An Angular package for entering and validating international telephone numbers. It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.
 
-![alt](readme-assets/ngx-intl-tel-input.jpg)
+![alt](readme-assets/ngx-intl-tel-input-search.jpg)
 
 **Supports:**
 
@@ -45,7 +45,7 @@ to **angular.json** styles array:
 
 ### Install This Library
 
-```$ npm install ngx-intl-tel-input --save```
+```$ npm install ngx-intl-tel-input-search --save```
 
 ## Usage
 
@@ -66,12 +66,12 @@ imports: [
 
 Refer to main app in this repository for working example.
 
-Or this [Stackblitz Demo](https://stackblitz.com/edit/ngx-intl-tel-input-demo).
+Or this [Stackblitz Demo](https://stackblitz.com/edit/ngx-intl-tel-input-search-demo).
 
 ```html
 
 <form #f="ngForm" [formGroup]="phoneForm">
-  <ngx-intl-tel-input
+  <ngx-intl-tel-input-search
   [cssClass]="'custom'"
   [preferredCountries]="['us', 'gb']"
   [onlyCountries]="['us', 'gb', 'es']"
@@ -83,7 +83,7 @@ Or this [Stackblitz Demo](https://stackblitz.com/edit/ngx-intl-tel-input-demo).
   [maxLength]=""
   [tooltipField]="'name'"
   name="phone"
-  formControlName="phone"></ngx-intl-tel-input>
+  formControlName="phone"></ngx-intl-tel-input-search>
 </form>
 
 ```
@@ -106,7 +106,7 @@ Or this [Stackblitz Demo](https://stackblitz.com/edit/ngx-intl-tel-input-demo).
 ## Library Contributions
 
 - Fork repo.
-- Update ```./projects/ngx-intl-tel-input```
+- Update ```./projects/ngx-intl-tel-input-search```
 - Build / test library.
 - Update ```./src/app``` with new functionality.
 - Update README.md
@@ -133,7 +133,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/19761422?v=4" width="100px;" alt="webcat_black"/><br /><sub><b>webcat_black</b></sub>](https://github.com/webcat12345)<br />[🎨](#design-webcat12345 "Design") [💻](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=webcat12345 "Code") [📖](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=webcat12345 "Documentation") [🤔](#ideas-webcat12345 "Ideas, Planning, & Feedback") [💬](#question-webcat12345 "Answering Questions") [🚇](#infra-webcat12345 "Infrastructure (Hosting, Build-Tools, etc)") [💡](#example-webcat12345 "Examples") [🚧](#maintenance-webcat12345 "Maintenance") [👀](#review-webcat12345 "Reviewed Pull Requests") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=webcat12345 "Tests") | [<img src="https://avatars2.githubusercontent.com/u/1058469?v=4" width="100px;" alt="Aleksandr Pasevin"/><br /><sub><b>Aleksandr Pasevin</b></sub>](http://pasevin.com)<br />[💻](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=pasevin "Code") [📖](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=pasevin "Documentation") [🐛](https://github.com/webcat12345/ngx-intl-tel-input/issues?q=author%3Apasevin "Bug reports") [📦](#platform-pasevin "Packaging/porting to new platform") [🔌](#plugin-pasevin "Plugin/utility libraries") [💬](#question-pasevin "Answering Questions") [🚇](#infra-pasevin "Infrastructure (Hosting, Build-Tools, etc)") [💡](#example-pasevin "Examples") [🚧](#maintenance-pasevin "Maintenance") [👀](#review-pasevin "Reviewed Pull Requests") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=pasevin "Tests") | [<img src="https://avatars0.githubusercontent.com/u/6862893?v=4" width="100px;" alt="Dviejo"/><br /><sub><b>Dviejo</b></sub>](https://github.com/Dviejopomata)<br />[💻](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=Dviejopomata "Code") [🐛](https://github.com/webcat12345/ngx-intl-tel-input/issues?q=author%3ADviejopomata "Bug reports") [💡](#example-Dviejopomata "Examples") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input/commits?author=Dviejopomata "Tests") [💬](#question-Dviejopomata "Answering Questions") [🚧](#maintenance-Dviejopomata "Maintenance") [👀](#review-Dviejopomata "Reviewed Pull Requests") |
+| [<img src="https://avatars3.githubusercontent.com/u/19761422?v=4" width="100px;" alt="webcat_black"/><br /><sub><b>webcat_black</b></sub>](https://github.com/webcat12345)<br />[🎨](#design-webcat12345 "Design") [💻](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=webcat12345 "Code") [📖](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=webcat12345 "Documentation") [🤔](#ideas-webcat12345 "Ideas, Planning, & Feedback") [💬](#question-webcat12345 "Answering Questions") [🚇](#infra-webcat12345 "Infrastructure (Hosting, Build-Tools, etc)") [💡](#example-webcat12345 "Examples") [🚧](#maintenance-webcat12345 "Maintenance") [👀](#review-webcat12345 "Reviewed Pull Requests") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=webcat12345 "Tests") | [<img src="https://avatars2.githubusercontent.com/u/1058469?v=4" width="100px;" alt="Aleksandr Pasevin"/><br /><sub><b>Aleksandr Pasevin</b></sub>](http://pasevin.com)<br />[💻](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=pasevin "Code") [📖](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=pasevin "Documentation") [🐛](https://github.com/webcat12345/ngx-intl-tel-input-search/issues?q=author%3Apasevin "Bug reports") [📦](#platform-pasevin "Packaging/porting to new platform") [🔌](#plugin-pasevin "Plugin/utility libraries") [💬](#question-pasevin "Answering Questions") [🚇](#infra-pasevin "Infrastructure (Hosting, Build-Tools, etc)") [💡](#example-pasevin "Examples") [🚧](#maintenance-pasevin "Maintenance") [👀](#review-pasevin "Reviewed Pull Requests") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=pasevin "Tests") | [<img src="https://avatars0.githubusercontent.com/u/6862893?v=4" width="100px;" alt="Dviejo"/><br /><sub><b>Dviejo</b></sub>](https://github.com/Dviejopomata)<br />[💻](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=Dviejopomata "Code") [🐛](https://github.com/webcat12345/ngx-intl-tel-input-search/issues?q=author%3ADviejopomata "Bug reports") [💡](#example-Dviejopomata "Examples") [⚠️](https://github.com/webcat12345/ngx-intl-tel-input-search/commits?author=Dviejopomata "Tests") [💬](#question-Dviejopomata "Answering Questions") [🚧](#maintenance-Dviejopomata "Maintenance") [👀](#review-Dviejopomata "Reviewed Pull Requests") |
 | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

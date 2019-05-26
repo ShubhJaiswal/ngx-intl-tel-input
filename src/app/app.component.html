@@ -3,7 +3,7 @@
   <h3>Test International Telephone Input Form</h3>
   <br>
   <form #f="ngForm" [formGroup]="phoneForm">
-    <ngx-intl-tel-input
+    <ngx-intl-tel-input-search
     [cssClass]="'custom'"
     [preferredCountries]="['us', 'gb']"
     [enableAutoCountrySelect]="true"
@@ -14,7 +14,7 @@
     [maxLength]=""
     [tooltipField]="'name'"
     name="phone"
-    formControlName="phone"></ngx-intl-tel-input>
+    formControlName="phone"></ngx-intl-tel-input-search>
   </form>
   <br>
   <div><strong>Is input valid:</strong> <pre>{{ !f.form.controls['phone'].invalid }}</pre></div>
